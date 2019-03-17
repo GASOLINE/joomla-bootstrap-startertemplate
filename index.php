@@ -26,7 +26,7 @@ include_once JPATH_THEMES.'/'.$this->template.'/logic.php';
     </div>
 
     <jdoc:include type="modules" name="debug" />
-    <script src="templates/frontend/build/app.js"></script>
+    <script src="templates/gasoline/build/app.js"></script>
 </body>
 
 </html>
