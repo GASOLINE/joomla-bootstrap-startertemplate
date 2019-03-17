@@ -3,16 +3,16 @@
 
 <extension version="3.8" type="template" client="site" method="upgrade">
 
-	<name>frontend</name>
-	<creationDate>xxxx-xx-xx</creationDate>
-	<author>your name</author>
-	<copyright>Copyright © xxxx example.com</copyright>
-	<authorEmail>your.name@example.com</authorEmail>
-	<authorUrl>http://www.example.com</authorUrl>
-	<version>1.0.0</version>
+	<name>gasoline</name>
+	<creationDate>2019-xx-xx</creationDate>
+	<author>Marc E. Pliester</author>
+	<copyright>Copyright © 2019 gasoline.nl</copyright>
+	<authorEmail>joomla@gasoline.nl</authorEmail>
+	<authorUrl>https://gasoline.nl</authorUrl>
+	<version>2.0.0</version>
 	<description><![CDATA[
-		<h1>frontend</h1>
-		<p>Created by <a href="http://www.example.com" target="_blank">your name | example.com</a>.</p>
+		<h1>GASOLINE</h1>
+		<p>Created by <a href="https://gasoline.nl" target="_blank">Marc E. Pliester | gasoline.nl</a>.</p>
 	]]></description>
 
 	<files>
