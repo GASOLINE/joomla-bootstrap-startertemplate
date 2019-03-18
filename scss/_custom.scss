@@ -1,3 +1,14 @@
-// TEMPLATE STYLES
+// Bootstrap override and additional items
 
-// custom code
+html {
+    overflow-y: scroll; //Always show scrollbar so site does not 'jump'
+  }
+  
+  body {
+    scroll-behavior: smooth; //Makes links to anchors scroll nicely
+  }
+
+// Bootstrap breakpoints 
+
+
+// Template styles & custom code
