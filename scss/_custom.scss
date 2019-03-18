@@ -1,14 +1,53 @@
-// Bootstrap override and additional items
+// BOOTSTRAP CONTAINERS
+
+//.example {
+//    @extend .col-md-10;
+//    @extend .offset-md-1;
+//    @extend .col-lg-8;
+//    @extend .offset-lg-2;
+//  }
+
+
+
+
+// THE BASICS + some additional items to make UX nicer
 
 html {
-    overflow-y: scroll; //Always show scrollbar so site does not 'jump'
+    //Always show scrollbar so site does not 'jump'
+    overflow-y: scroll;
   }
   
   body {
-    scroll-behavior: smooth; //Makes links to anchors scroll nicely
+    //Makes links to anchors scroll nicely
+    scroll-behavior: smooth;
   }
 
-// Bootstrap breakpoints 
+// TEMPLATE STYLE & CUSTOM CODE
+
+// hier de h tags, p's etc
 
 
-// Template styles & custom code
+
+// MEDIA QUERIES
+// No media query necessary for xs breakpoint as it's effectively `@media (min-width: 0) { ... }`
+
+// sm = 576px 
+@include media-breakpoint-up(sm) { 
+    
+ }
+
+// md = 768px
+@include media-breakpoint-up(md) { 
+    
+ }
+
+// lg = 992px
+@include media-breakpoint-up(lg) { 
+    
+ }
+
+// xl = 1200px
+@include media-breakpoint-up(xl) { 
+    
+ }
+
